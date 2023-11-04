@@ -1,0 +1,46 @@
+{
+  "result": [
+    {
+      "image_file_name": "shop.png",
+      "name": "Total Lead",
+      "value": 57,
+      "color": {
+        "r": 190,
+        "g": 164,
+        "b": 243,
+        "opacity": 1.0
+      },
+      "add_size_box": true,
+      "percentage": 3.5,
+      "under_value": false
+    },
+    {
+      "image_file_name": "fire.png",
+      "name": "Hot Lead",
+      "value": 38,
+      "color": {
+        "r": 235,
+        "g": 115,
+        "b": 160,
+        "opacity": 1.0
+      },
+      "add_size_box": true,
+      "percentage": 3.5,
+      "under_value": true
+    },
+    {
+      "image_file_name": "done.png",
+      "name": "Cool Lead",
+      "value": 0,
+      "color": {
+        "r": 107,
+        "g": 245,
+        "b": 58,
+        "opacity": 1.0
+      },
+      "add_size_box": true,
+      "percentage": 0.0,
+      "under_value": false
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "result": [
+    {
+      "name": "Shinta Alexandria",
+      "avatar_file_name": "avatar1women.png",
+      "container_color": {
+        "r": 120,
+        "g": 100,
+        "b": 230,
+        "o": 1.0
+      },
+      "date": "01-11-2023",
+      "label_name_icon": "New Lead",
+      "price": 13000000,
+      "label_file_name": "Star.png"
+    },
+    {
+      "name": "Vita Arsalansia",
+      "avatar_file_name": "avatarwomen5.png",
+      "container_color": {
+        "r": 235,
+        "g": 115,
+        "b": 160,
+        "o": 1.0
+      },
+      "date": "01-11-2023",
+      "label_name_icon": "Hot Lead",
+      "price": 13000000,
+      "label_file_name": "fire.png"
+    },
+    {
+      "name": "Meriko Yolanda",
+      "avatar_file_name": "avatarmen3.png",
+      "container_color": {
+        "r": 237,
+        "g": 173,
+        "b": 96,
+        "o": 1.0
+      },
+      "date": "01-11-2023",
+      "label_name_icon": "Cold Lead",
+      "price": 13000000,
+      "label_file_name": "summeline.png"
+    }
+  ]
+}

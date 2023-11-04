@@ -1,0 +1,39 @@
+{
+  "result": [
+    {
+      "name": "Shinta Alexandria",
+      "avatar_file_name": "avatar1women.png",
+      "deals": 45,
+      "date": "01-11-2023",
+      "price": 13000000
+    },
+    {
+      "name": "Jonathan Zegwin",
+      "avatar_file_name": "avatarmen1.png",
+      "deals": 41,
+      "date": "01-11-2023",
+      "price": 13000000
+    },
+    {
+      "name": "VIta Arsalina",
+      "avatar_file_name": "avatarwomen4.png",
+      "deals": 34,
+      "date": "01-11-2023",
+      "price": 13000000
+    },
+    {
+      "name": "Meriko Yolanda",
+      "avatar_file_name": "avatarmen3.png",
+      "deals": 30,
+      "date": "01-11-2023",
+      "price": 13000000
+    },
+    {
+      "name": "Higuain Morelan",
+      "avatar_file_name": "avatarwomen5.png",
+      "deals": 25,
+      "date": "01-11-2023",
+      "price": 13000000
+    }
+  ]
+}
