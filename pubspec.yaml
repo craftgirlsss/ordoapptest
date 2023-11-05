@@ -10,11 +10,11 @@ dependencies:
   flutter:
     sdk: flutter
   intl: ^0.18.1
-  chart_sparkline: ^1.0.14
   get: ^4.6.5
   cupertino_icons: ^1.0.2
   dots_indicator: any
   carousel_slider: ^4.2.1
+  fl_chart: ^0.62.0
 
 dev_dependencies:
   flutter_test:

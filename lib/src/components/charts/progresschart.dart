@@ -16,7 +16,7 @@ class ProgressChart extends StatefulWidget {
   State<ProgressChart> createState() => _ProgressChartState();
 }
 
-const WeekDays = ["Mon", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+const weekDays = ["Mon", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
 class _ProgressChartState extends State<ProgressChart> {
   late double _min, _max;
@@ -35,15 +35,14 @@ class _ProgressChartState extends State<ProgressChart> {
       _min = min;
       _max = max;
       _Y = widget.scores.map((e) => e.value).toList();
-      _X = widget.scores
-          .map((e) => "${WeekDays[e.time.weekday]}\n${e.time.day}")
-          .toList();
+      _X = widget.scores.map((e) => weekDays[e.time.weekday]).toList();
     });
   }
 
   @override
   Widget build(BuildContext context) {
     return Container(
+      color: Colors.transparent,
       child: CustomPaint(
         painter: ChartPainter(_X, _Y, _min, _max),
         child: Container(),

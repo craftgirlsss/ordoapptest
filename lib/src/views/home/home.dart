@@ -5,6 +5,7 @@ import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:ordoapp/src/components/appbars/appbar.dart';
+import 'package:ordoapp/src/components/charts/fl_charts.dart';
 import 'package:ordoapp/src/components/charts/progresschart.dart';
 import 'package:ordoapp/src/components/containers/itemsmenu.dart';
 import 'package:ordoapp/src/components/containers/keyperformance.dart';
@@ -14,7 +15,7 @@ import 'package:ordoapp/src/components/totalavenue/totalavenue.dart';
 import 'package:ordoapp/src/controllers/homecontroller.dart';
 
 class Home extends StatefulWidget {
-  Home({super.key});
+  const Home({super.key});
 
   @override
   State<Home> createState() => _HomeState();
@@ -49,16 +50,7 @@ class _HomeState extends State<Home> {
       body: ListView(
         children: [
           const TotalRevenue(),
-          Container(
-            padding: const EdgeInsets.only(bottom: 10),
-            color: Colors.transparent,
-            child: SizedBox(
-              height: 170,
-              child: ProgressChart(
-                scores: _scores,
-              ),
-            ),
-          ),
+          const LineChartSample2(),
           const SizedBox(height: 10),
           keyPerformanceText(),
           SizedBox(
