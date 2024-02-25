@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:ordoapp/src/components/fontstyles/fontstyle.dart';
-import 'package:ordoapp/src/components/formats/currency.dart';
 
 class TotalRevenue extends StatefulWidget {
   const TotalRevenue({super.key});
@@ -30,12 +29,8 @@ class _TotalRevenueState extends State<TotalRevenue> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Total Revenue",
-                  style: poppinsRegular(color: Colors.white, fontSize: 12),
-                ),
-                Text(
-                  formatCurrency.format(275500000),
-                  style: poppinsBold(color: Colors.white, fontSize: 20),
+                  "IPK 3.4",
+                  style: poppinsBold(color: Colors.white, fontSize: 17),
                 ),
               ],
             ),

@@ -5,7 +5,7 @@ AppBar homeAppBar() {
   return AppBar(
     automaticallyImplyLeading: false,
     title: Text(
-      "Dashboard",
+      "Dashboard Performa",
       style: poppinsRegular(
           color: Colors.white, fontWeight: FontWeight.w600, fontSize: 15),
     ),

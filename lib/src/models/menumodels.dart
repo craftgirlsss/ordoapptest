@@ -9,9 +9,9 @@ class MenuModels {
   }
 
   Map<String, dynamic> toJson() {
-    final _data = <String, dynamic>{};
-    _data['result'] = result.map((e) => e.toJson()).toList();
-    return _data;
+    final data = <String, dynamic>{};
+    data['result'] = result.map((e) => e.toJson()).toList();
+    return data;
   }
 }
 
@@ -44,15 +44,15 @@ class Result {
   }
 
   Map<String, dynamic> toJson() {
-    final _data = <String, dynamic>{};
-    _data['image_file_name'] = imageFileName;
-    _data['name'] = name;
-    _data['value'] = value;
-    _data['color'] = color.toJson();
-    _data['add_size_box'] = addSizeBox;
-    _data['percentage'] = percentage;
-    _data['under_value'] = underValue;
-    return _data;
+    final data = <String, dynamic>{};
+    data['image_file_name'] = imageFileName;
+    data['name'] = name;
+    data['value'] = value;
+    data['color'] = color.toJson();
+    data['add_size_box'] = addSizeBox;
+    data['percentage'] = percentage;
+    data['under_value'] = underValue;
+    return data;
   }
 }
 
@@ -76,11 +76,11 @@ class Color {
   }
 
   Map<String, dynamic> toJson() {
-    final _data = <String, dynamic>{};
-    _data['r'] = r;
-    _data['g'] = g;
-    _data['b'] = b;
-    _data['opacity'] = opacity;
-    return _data;
+    final data = <String, dynamic>{};
+    data['r'] = r;
+    data['g'] = g;
+    data['b'] = b;
+    data['opacity'] = opacity;
+    return data;
   }
 }

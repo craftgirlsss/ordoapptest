@@ -19,11 +19,17 @@ Widget itemsData(context,
     decoration: BoxDecoration(
       color: Colors.white,
       borderRadius: BorderRadius.circular(12),
+      gradient: LinearGradient(colors: [
+        Colors.white.withOpacity(0.8),
+        Colors.white.withOpacity(0.8),
+        Colors.white.withOpacity(0.9),
+        Colors.white.withOpacity(0.9),
+      ]),
       boxShadow: [
         BoxShadow(
-          color: Colors.grey.shade200,
+          color: Colors.grey.withOpacity(0.1),
           blurRadius: 20,
-          offset: const Offset(1, 5), // Shadow position
+          // offset: const Offset(1, 5), // Shadow position
         ),
       ],
     ),
@@ -46,7 +52,7 @@ Widget itemsData(context,
                     BoxShadow(
                       color: Colors.grey.shade200,
                       blurRadius: 6,
-                      offset: Offset(4, 8), // Shadow position
+                      // offset: const Offset(4, 8), // Shadow position
                     ),
                   ]),
               child: Image.asset(

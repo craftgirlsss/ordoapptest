@@ -61,7 +61,7 @@ class _LineChartSample2State extends State<LineChartSample2> {
               });
             },
             child: Text(
-              'avg',
+              'Avg',
               style: TextStyle(
                 fontSize: 12,
                 color: showAvg ? Colors.white.withOpacity(0.5) : Colors.white,
@@ -78,22 +78,22 @@ class _LineChartSample2State extends State<LineChartSample2> {
     Widget text;
     switch (value.toInt()) {
       case 0:
-        text = Text('Sun', style: style);
+        text = Text('Jan', style: style);
         break;
       case 2:
-        text = Text('Mon', style: style);
+        text = Text('Feb', style: style);
         break;
       case 4:
-        text = Text('Tue', style: style);
+        text = Text('March', style: style);
         break;
       case 6:
-        text = Text('Wed', style: style);
+        text = Text('April', style: style);
         break;
       case 8:
         text = Text('Fri', style: style);
         break;
       case 10:
-        text = Text('Sat', style: style);
+        text = Text('May', style: style);
         break;
       default:
         text = Text('', style: style);
@@ -170,6 +170,7 @@ class _LineChartSample2State extends State<LineChartSample2> {
           ),
         ),
         leftTitles: AxisTitles(
+          drawBehindEverything: true,
           sideTitles: SideTitles(
             showTitles: false,
             interval: 1,
@@ -185,13 +186,13 @@ class _LineChartSample2State extends State<LineChartSample2> {
       lineBarsData: [
         LineChartBarData(
           spots: const [
-            FlSpot(0, 3),
-            FlSpot(2.6, 2),
-            FlSpot(4.9, 5),
-            FlSpot(6.8, 3.1),
-            FlSpot(8, 4),
-            FlSpot(9.5, 3),
-            FlSpot(11, 4),
+            FlSpot(0, 3.4),
+            FlSpot(2, 4),
+            FlSpot(4, 4.4),
+            FlSpot(6, 4.3),
+            FlSpot(8, 5),
+            FlSpot(10, 6),
+            FlSpot(14, 4),
           ],
           isCurved: true,
           gradient: LinearGradient(
@@ -208,7 +209,7 @@ class _LineChartSample2State extends State<LineChartSample2> {
             show: true,
             gradient: LinearGradient(
               colors: gradientColors
-                  .map((color) => color.withOpacity(0.2))
+                  .map((color) => color.withOpacity(0.4))
                   .toList(),
             ),
           ),
